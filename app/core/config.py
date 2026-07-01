@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     # DB Connection Details
     POSTGRES_SERVER: str = "localhost"
     POSTGRES_USER: str = "postgres"
-    POSTGRES_PASSWORD: str = "REMOVED"
+    POSTGRES_PASSWORD: str = "str"
     POSTGRES_DB: str = "opulse"
     POSTGRES_PORT: int = 5432
     DATABASE_URL: Optional[str] = None
