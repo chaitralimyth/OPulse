@@ -64,7 +64,7 @@ ENV="development"
 API_V1_STR="/api/v1"
 
 # JWT configuration (Run: openssl rand -hex 32 to generate a new key)
-SECRET_KEY="supersecretkeythatisverysecureandlongerthanthirtytwobytesforhashing"
+SECRET_KEY="supersecretkeythatisverysecure..."
 ACCESS_TOKEN_EXPIRE_MINUTES=60
 REFRESH_TOKEN_EXPIRE_DAYS=7
 
